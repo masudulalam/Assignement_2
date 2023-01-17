@@ -1,0 +1,265 @@
+/* Select all elements */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+/* common style */
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*  styles header its contains Logo, Navigation,header title, paragraph & banner    */
+.header-container {
+    width: 1920px;
+    height: 1322px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* styles nav */
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    /* margin-left: 220px; */
+}
+
+ul {
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+.navigation ul li a{
+    text-decoration: none;
+}
+
+/* ----------------------------
+    style header-description
+---------------------------- */
+.header-description {
+    width: 862px;
+    height: 225px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-bottom: 30px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.btn-orange {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border: none;
+    color: white;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* style main section */
+/* ----------------------------
+    main-section-1 start 
+----------------------------- */
+.main-section-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 75px;
+    margin-top: 80px;
+    margin-bottom: 130px;
+    margin-left: 300px;
+}
+
+.main-section-1-a {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.main-section-1-b {
+    width: 537px;
+    height: 304px;
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+.quick-list{
+    color: #727272;
+}
+.of-our{
+    color: #131313;
+}
+.feature{
+    color: #FF900E;
+}
+.features-paragraph {
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 35px;
+}
+
+/* ----------------------------
+    main-section-2 start 
+----------------------------- */
+.main-section-2 {
+    display: flex;
+    margin-bottom: 130px;
+}
+
+.features-description {
+    margin-left: 300px;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 25px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.paragraph-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.features-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.feature-image {
+    margin-left: 55px;
+}
+
+.orange-experience-btn {
+    position: relative;
+    bottom: 120px;
+    left: -90px;
+    width: 342px;
+    height: 200px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-span {
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+/* ----------------------------
+    main-section-3 start 
+----------------------------- */
+.main-section-3 {
+    margin-bottom: 180px;
+}
+
+.main-section-3-description {
+    margin-left: 300px;
+    margin-bottom: 100px;
+}
+
+.some-facts {
+    display: flex;
+    justify-content: calc(125px);
+    margin-left: 320px;
+}
+
+.fact {
+    border: 1px solid #FF900E;
+    width: 242px;
+    height: 242px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.fact img {
+    margin-top: 70px;
+}
+
+.fact img,
+p {
+    margin-bottom: 20px;
+}
+
+.our-sponsors-description {
+    text-align: center;
+}
+
+.sponsors-image {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 130px;
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-left: 300px;
+}
+
+.footer-info {
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
