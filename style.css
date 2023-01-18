@@ -270,7 +270,9 @@ footer {
     color: #424242;
 }
 
-/* Media Query for mobile devices */
+/* ---------------------------------------------
+    Media Query for mobile devices 
+   --------------------------------------------*/
 @media only screen and (max-width: 576px) {
     /* header section */
     .header-container {
@@ -408,11 +410,5 @@ footer {
         font-weight: 400;
         font-size: 20px;
         color: #424242;
-
     }
-}
-
-
-.hide{
-    visibility: hidden;
 }
